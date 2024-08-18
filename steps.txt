@@ -1,0 +1,17 @@
+// check if browser support geolocation
+
+// set options for high accuracy, a 5-sec timeout, and no caching
+// use watchposition to track users location continously
+// emit the latitude and longitude via socket with 'send-location'
+// log any errors to console
+
+// initialize a map with co-ordinates
+// zoom level of 15
+// add open street map tiles to the map
+
+// create an object markers
+
+// when receiving location, extract id, latitude and longitude, and center map on the new co-ordinates
+
+// if a marker for the id exists, update its posn, otherwise create a new marker and add it to the map
+// when a user disconnects, remove the marker
