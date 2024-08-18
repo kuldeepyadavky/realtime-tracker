@@ -23,7 +23,7 @@ if (navigator.geolocation) {
 // Initialize map
 const map = L.map('map').setView([0, 0], 16); // Save map to a variable
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { // Updated URL format
-  attribution: 'Real Time Tracker'
+  attribution: 'RealTime Tracker'
 }).addTo(map);
 
 // Track markers for different users
